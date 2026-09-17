@@ -25,5 +25,8 @@ namespace _1
             Modell = modell;
             Marka = marka;
         }
-        public void KiirAdatok();
+        public void KiirAdatok()
+        {
+            Console.WriteLine($"{Marka} {Modell} - Gyártási év: {GyartasiEv}");
+        }
     } }
